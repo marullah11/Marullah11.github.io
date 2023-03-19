@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kalkulator</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+	<h1>Kalkulator</h1>
+	<form>
+		<label for="angka1"></label>
+		<input type="text" id="angka1" name="angka1" placeholder="angka 1"><br><br>
+		<label for="angka2"></label>
+		<input type="text" id="angka2" name="angka2" placeholder="angka 2"><br><br>   
+		<label for="hasil"></label>
+		<input type="text" id="hasil" name="hasil" disabled><br><br>
+		<button class="Jumlah" type="button" onclick="hitung('+')">+</button>
+		<button class="kurang" type="button" onclick="hitung('-')">-</button>
+		<button class="kali" type="button" onclick="hitung('*')">*</button>
+		<button class="bagi" type="button" onclick="hitung('/')">/</button>
+		<button class="perpangkatan" type="button" onclick="hitung('**')">^</button><br><br>
+	</form>
+    <script src="js/calc.js"></script>
+</body>
+</html>

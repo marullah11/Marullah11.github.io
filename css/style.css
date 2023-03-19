@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    text-align: center;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-right: 10px;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+
+  /* CSS untuk tombol tambah */
+button[type="button"][onclick="hitung('+')"] {
+    background-color: #360ccf;
+    color: white;
+  }
+  
+  /* CSS untuk tombol kurang */
+  button[type="button"][onclick="hitung('-')"] {
+    background-color: #34d8e4;
+    color: white;
+  }
+  
+  /* CSS untuk tombol kali */
+  button[type="button"][onclick="hitung('*')"] {
+    background-color: #349b38;
+    color: white;
+  }
+  
+  /* CSS untuk tombol bagi */
+  button[type="button"][onclick="hitung('/')"] {
+    background-color: #e0d314;
+    color: white;
+  }
+  
+  /* CSS untuk tombol pangkat */
+  button[type="button"][onclick="hitung('**')"] {
+    background-color: #e75d1d;
+    color: white;
+  }
+  
+  button:active {
+    background-color: #4CAF50;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3) inset;
+  }
+  
